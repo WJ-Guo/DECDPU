@@ -1,0 +1,3 @@
+Run DECDPU_DAE for processing text datasets, and run DECDPU_AE for processing other datasets. We provide pretrained parameters for several datasets, which can be found in the pretrainfolder. When using them, please adjust the parameter n_zaccording to the bottleneck layer dimension of the corresponding pretrained parameters.
+
+The code is written based on the PyTorch version of IDEC, source code address: https://github.com/dawnranger/IDEC-pytorch
